@@ -1,4 +1,4 @@
-package io.cloud.demo.dept2.myrule;
+package io.cloud.demo.dept2.config.myrule;
 
 import com.netflix.loadbalancer.IRule;
 import org.springframework.context.annotation.Bean;

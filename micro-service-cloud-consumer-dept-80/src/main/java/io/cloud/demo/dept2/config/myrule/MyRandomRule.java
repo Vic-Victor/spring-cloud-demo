@@ -1,4 +1,4 @@
-package io.cloud.demo.dept2.myrule;
+package io.cloud.demo.dept2.config.myrule;
 
 import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.AbstractLoadBalancerRule;

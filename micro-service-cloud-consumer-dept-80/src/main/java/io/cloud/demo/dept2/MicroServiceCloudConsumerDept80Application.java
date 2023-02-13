@@ -1,6 +1,6 @@
 package io.cloud.demo.dept2;
 
-import io.cloud.demo.dept2.myrule.MyselfRibbonRuleConfig;
+import io.cloud.demo.dept2.config.myrule.MyselfRibbonRuleConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
