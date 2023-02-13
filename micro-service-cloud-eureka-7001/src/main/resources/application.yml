@@ -14,3 +14,8 @@ eureka:
     service-url:
       default-zone: http://${eureka.instance.hostname}:#{server.port}/eureka/ # 单机版服务注册中心
 
+logging:
+  config: classpath:logging-config.xml
+  level:
+    root: info
+    io.cloud.demo: info

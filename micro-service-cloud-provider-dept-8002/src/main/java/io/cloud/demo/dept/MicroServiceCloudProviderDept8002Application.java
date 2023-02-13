@@ -15,9 +15,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableEurekaClient
 @Slf4j
-public class MicroServiceCloudProviderDept8001Application {
+public class MicroServiceCloudProviderDept8002Application {
     public static void main(String[] args) {
-        SpringApplication.run(MicroServiceCloudProviderDept8001Application.class, args);
-        log.info("MicroServiceCloudProviderDept8001Application -- 8001 boot successfully...");
+        SpringApplication.run(MicroServiceCloudProviderDept8002Application.class, args);
+        log.info("MicroServiceCloudProviderDept8002Application -- 8002 boot successfully...");
+
     }
 }
